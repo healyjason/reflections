@@ -2,3 +2,7 @@ Question When would you want to create a remote repository rather than keeping a
 Answer I would create a file on a remote repository possibly because I wanted to keep it separate to my local repository for some reason.
 Or maybe if I want to share the file with others.
 Or maybe if I want others to help me to edit it.
+Question Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Answer Because the changes I make on my remote repository on for example GitHub may be experimental or maybe they involve collaborations
+Maybe my offline git repository is working fine so if it always auto updated to be in synch with my remote repository then maybe a contributor or myself may have made changes leading to a bug
+It may be of benefit to have two repositories when experimenting or when in development
