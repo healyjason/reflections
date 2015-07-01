@@ -1,0 +1,22 @@
+Question How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Answer It compared the two files for differences and
+It provided me with a summary
+Rather than I having to trawl through the entirety of the two files
+Because the two files contained many many lines of code
+Such comparison between the two would have been tedious or maybe impossible
+Question How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Answer It could mean that if I make an error I could refer back to previous versions
+It could also mean I can track how a file has developed over time
+Question What do you think are the pros and cons of manually choosing when to creat a commit like you do it Git vs having versions automatically saved like Google docs does?
+Answer Pros include the fact that I can use my own judgment to know when is the right time to commit
+Cons include the fact that auto saving might save too much information too late or too little information too soon
+Question Why do you think some version control systems like Git allow saving multiple files in one commit while others like Google Docs treat each file separately
+Answer Because when changing multiple interrelated files it makes sense that changes are tracked across them all
+And when using unrelated files it is probably not necessary to track changes across them
+Question How can you use the commands git log and git diff to view the history of files
+Answer I can use git log to find all the changes committed or commits and then I can use git diff to compare one commit to the previous or next commit using the commit IDs
+Within a git log I can also scroll down through the log if it is not on the screen using the down or enter keys
+Question How might using version control make you more confident to make changes that could break something
+Answer Using version control means that if I make a change that breaks something I can use git logs git checkout and git diff to roll back to the previous working version and then find out what was changed to the version with the bug
+Question Now that you have your workspace set up what do you want to try using Git for
+Answer I am not sure but I think I will use Git to track android app development coding
