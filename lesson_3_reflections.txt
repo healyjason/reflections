@@ -6,3 +6,8 @@ Question Why might you want to always pull changes manually rather than having G
 Answer Because the changes I make on my remote repository on for example GitHub may be experimental or maybe they involve collaborations
 Maybe my offline git repository is working fine so if it always auto updated to be in synch with my remote repository then maybe a contributor or myself may have made changes leading to a bug
 It may be of benefit to have two repositories when experimenting or when in development
+Question Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Answer A fork is created on GitHub and it means I effectively clone another person's repository to my own profile. Equally, people may fork my public repositories too
+A clone is where I either locally clone a repository or I clone from a remote repository for example on git hub so that it is downloaded to my computer and I can use, edit, change the code
+A branch is where I create a parallel offshoot from an existing branch such as for example master. This enables me to edit both branches separately such as when maybe I want to experiment with an offshoot branch without harming the master or the original branch
+Also I can merge branches together if I want to later
