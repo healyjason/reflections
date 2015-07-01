@@ -1,0 +1,10 @@
+Question What happens when you initialize a repository? Why do you need to do it?
+Answer I use git init via git bash when I have placed the git bash command line within the relevant repository
+Then git bash creates a git repository within that folder
+I need to do it because otherwise git will not track the changes in a repository at all
+If git is tracking changes this enables me to use version control and to be more efficient at debugging and solving problems between versions
+Question How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is different from the repository because the staging area is a temporary location where we can place various files in a group before a final commit to the repository
+The staging area is different to the working directory because I can decide to place only some of the files that have been changed in the staging area rather than everything from the working directory
+The value of the latter is that it cuts down on the amount of info per commit
+The value of the former is that the staging area allows us to set up each commit in groups rather than just single file or all file commits
