@@ -8,3 +8,22 @@ The staging area is different from the repository because the staging area is a 
 The staging area is different to the working directory because I can decide to place only some of the files that have been changed in the staging area rather than everything from the working directory
 The value of the latter is that it cuts down on the amount of info per commit
 The value of the former is that the staging area allows us to set up each commit in groups rather than just single file or all file commits
+Question How can you use the staging area to make sure you have one commit per logical change?
+Answer I can use git add after I make a logical change to add that change to the staging area
+To do this I use git add file.name to add the relevant file to the staging area
+Then I use git diff --staged to see what is in the staging area
+Then I use git commit to commit the changes from the staging area
+I can use git diff to compare the working directory and the staging area
+I can use git status to see which files I have changed in my working directory that have neither been staged or committed
+Question What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Answer using branches is useful in various scenarios such as when I have a fully working version of my code and want to experiment with a possible change without altering the master
+It is also useful in situations where I might want two different versions of my code for some reason (e.g. an easy mode for a game or a different language like Italian)
+Question How do diagrams help you visualize the branch structure?
+Answer I can use diagrams to follow branches from which commit they were created at 
+I can also use diagrams to compare branches to see what commits differ between them and also to understand which branch each new branch originates from
+Question What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Answer The result of merging two branches together is that all the commits in both branches will be combined and will be ordered according to their timestamp
+The reason we represent it on the diagram the way we do is because both the final commits of each relevant branch will be connected as the two latest time stamps of the merged branch
+Question What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Answer Automatic merging saves a lot of time using git merge branch1 branch2
+Also automatic merging will tell me if there are conflicts automatically
