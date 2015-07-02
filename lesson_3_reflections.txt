@@ -11,3 +11,7 @@ Answer A fork is created on GitHub and it means I effectively clone another pers
 A clone is where I either locally clone a repository or I clone from a remote repository for example on git hub so that it is downloaded to my computer and I can use, edit, change the code
 A branch is where I create a parallel offshoot from an existing branch such as for example master. This enables me to edit both branches separately such as when maybe I want to experiment with an offshoot branch without harming the master or the original branch
 Also I can merge branches together if I want to later
+Question What is the benefit of having a copy of the last known state of the remote stored locally?
+Answer It allows for offline comparison between the master and the origin/master stored offline (remote). 
+It also helps to create better fetching, merging, and pulling because the local origin/master will be compared to the remote master before any such actions are taken so that not all the information is downloaded needlessly
+Also it means that any changes I have made locally to master can be compared to the most up to date commits on the local origin master and the remote origin master to discover any divergence and/or conflicts which may need to be resolved before any merging of the two occurs
