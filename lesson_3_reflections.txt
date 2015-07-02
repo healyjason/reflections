@@ -15,3 +15,6 @@ Question What is the benefit of having a copy of the last known state of the rem
 Answer It allows for offline comparison between the master and the origin/master stored offline (remote). 
 It also helps to create better fetching, merging, and pulling because the local origin/master will be compared to the remote master before any such actions are taken so that not all the information is downloaded needlessly
 Also it means that any changes I have made locally to master can be compared to the most up to date commits on the local origin master and the remote origin master to discover any divergence and/or conflicts which may need to be resolved before any merging of the two occurs
+Question How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Answer I am not sure. Maybe two people could collaborate on the same machine taking turns
+Or maybe two people could work independently on two machines and find a way of sharing repositories on things like usb sticks or other kinds of online repositories
