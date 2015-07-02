@@ -18,3 +18,8 @@ Also it means that any changes I have made locally to master can be compared to 
 Question How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Answer I am not sure. Maybe two people could collaborate on the same machine taking turns
 Or maybe two people could work independently on two machines and find a way of sharing repositories on things like usb sticks or other kinds of online repositories
+Question When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Answer I might make changes in a separate branch rather than master if I was experimenting with a change or a bug fix or a new feature and wanted to test my change out safely separate from the master or if I want feedback and or input from collaborators
+I might also use other branches when working with collaborators on git hub so that I can pull down their work or branches from git hub into a local branch on my local repository and see what their changes do before I merge and commit those external branch changes to my master
+I might also use a separate branch if I want two different versions of a code e.g. easy and hard mode in a game
+Working just with the master branch has the benefits that version control is quite complicated and potentially confusing however it does not allow for the same amount of collaboration or experimentation, but it does offer, through git bash, the options to track my changes to the master branch in order to follow all the changes i make through commits that may enable me to revert back to an earlier version if need be such as for example if future changes do not work out as hoped or if they cause unfixable bugs
